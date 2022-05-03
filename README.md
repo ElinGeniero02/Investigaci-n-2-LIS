@@ -1,1 +1,1 @@
-# Investigaci-n-2-LIS
+# Investigación 2 LIS
