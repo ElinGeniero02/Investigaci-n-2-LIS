@@ -1,0 +1,246 @@
+ERROR - 2022-05-02 11:45:38 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:45:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:51:51 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:51:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:51:58 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:51:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:52:14 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:52:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:52:47 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:52:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:54:35 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:54:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:55:00 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:55:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:55:27 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:55:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:55:37 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:55:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:55:47 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:55:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 11:55:53 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 11:55:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 12:00:35 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 12:00:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 12:00:39 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 12:00:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 12:00:48 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 12:00:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 12:00:54 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 12:00:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 12:02:04 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 12:02:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-02 12:04:24 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-05-02 12:04:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\API-REST\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\API-REST\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\API-REST\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\API-REST\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\API-REST\app\Controllers\API\Clientes.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-02 14:16:41 --> Class "App\Models\EstudianteModel" not found
+#0 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(809): App\Controllers\API\Estudiantes->__construct()
+#1 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\API-REST\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\API-REST\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\API-REST\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-02 16:54:29 --> Cannot add or update a child row: a foreign key constraint fails (`universidad`.`estudiantes`, CONSTRAINT `estudiantes_ibfk_1` FOREIGN KEY (`Carrera`) REFERENCES `carrera` (`IdCarrera`) ON DELETE CASCADE ON UPDATE CASCADE)
