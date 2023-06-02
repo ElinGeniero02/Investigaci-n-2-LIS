@@ -2,5 +2,6 @@
 ***
 ## API-REST utilizando CodeIgniter 4.
 
-- Rodrigo Humberto Aguilera Mendoza | GM191382 | 01T.
+- Oscar Steven García Menjívar | GM191382 | 01T.
+- Rodrigo Humberto Aguilera Mendoza | AM201939 | 01T.
 - [Link del video](https://www.youtube.com/watch?v=yAjoyHW6aEQ)
